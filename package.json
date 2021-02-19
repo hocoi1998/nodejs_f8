@@ -6,6 +6,7 @@
   "scripts": {
     "start": "nodemon --inspect src/index.js",
     "watch": "node-sass --watch src/resources/scss/ --output src/public/css/",
+    "pre-commit": "lint-staged",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,11 +28,6 @@
   "homepage": "https://github.com/hocoi1998/nodejs_f8#readme",
   "lint-staged": {
     "src/**/*.{js,json}":"prettier --single-quote --trailing-comma all --tab-width 4 --write"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "dependencies": {
     "express": "^4.17.1",
