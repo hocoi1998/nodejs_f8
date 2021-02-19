@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/hocoi1998/nodejs_f8#readme",
   "lint-staged": {
-    "src/**/*.{js,json,scss}":"prettier --single-quote --trailing-comma all --tab-width 4 --write"
+    "src/**/*.{js,json}":"prettier --single-quote --trailing-comma all --tab-width 4 --write"
   },
   "husky": {
     "hooks": {
